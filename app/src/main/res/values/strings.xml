@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Greek Islands Quiz</string>
+    <string name="app_title">Guess the Greek island</string>
+    <string name="question7">What is the largest island in Greece? Hint: is already mentioned on previous questions </string>
+    <string name="yourName">Name</string>
+    <string name="yourAnswer">Your answer</string>
+    <string name="island1">Island #1</string>
+    <string name="island2">Island #2</string>
+    <string name="island3">Island #3</string>
+    <string name="island4">Island #4</string>
+    <string name="island5">Island #5</string>
+    <string name="zakinthos">Zakinthos</string>
+    <string name="santorini">Santorini</string>
+    <string name="corfu">Corfu</string>
+    <string name="siros">Siros</string>
+    <string name="crete">Crete</string>
+    <string name="mykonos">Mykonos</string>
+    <string name="skiathos">Skiathos</string>
+    <string name="milos">Milos</string>
+    <string name="Submit">Submit</string>
+    <string name="StartQuiz">Start Quiz</string>
+    <string name="question6">Which islands are in Ionian Sea? Choose two islands.</string>
+    <string name="AppLogo">Need Vacation?</string>
+    <string name="yourAge">Age</string>
+    <string name="Question">Question</string>
+    <string name="Right">Right</string>
+    <string name="Wrong">Wrong</string>
+    <string name="ToastMsg1"> you are a guru!!! Your score is </string>
+    <string name="ToastMsg2"> you need to travel more!!! Your score is </string>
+    <string name="ToastMsg3"> please try again! Your score is </string>
+
+
+</resources>

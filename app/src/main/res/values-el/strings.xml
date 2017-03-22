@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Πόσο καλά γνωρίζεις τα ελληνικά νησιά;</string>
+    <string name="Submit">Υποβολή</string>
+    <string name="app_title">Μάντεψε το ελληνικό νησί</string>
+    <string name="corfu">Κέρκυρα</string>
+    <string name="crete">Κρήτη</string>
+    <string name="island1">Νησί #1</string>
+    <string name="island2">Νησί #2</string>
+    <string name="island3">Νησί #3</string>
+    <string name="island4">Νησί #4</string>
+    <string name="island5">Νησί #5</string>
+    <string name="milos">Μήλος</string>
+    <string name="mykonos">Μύκονος</string>
+    <string name="question6">Πoια από τα παρακάτω νησιά βρίσκονται στο Ιόνιο Πέλαγος; Επιλέξτε δύο νησιά.</string>
+    <string name="santorini">Σαντορίνη</string>
+    <string name="siros">Σύρος</string>
+    <string name="skiathos">Σκιάθος</string>
+    <string name="yourAge">Ηλικία</string>
+    <string name="yourName">Όνομα</string>
+    <string name="zakinthos">Ζάκυνθος</string>
+    <string name="AppLogo">Χρειάζεσαι διακοπές;</string>
+    <string name="StartQuiz">Πάμε</string>
+    <string name="yourAnswer">Απαντήστε εδώ</string>
+    <string name="question7">Ποιο ειναι το μεγαλύτερο ελληνικό νησί; Έχει ήδη αναφερθεί σε προηγούμενη ερώτηση.</string>
+    <string name="Question">Ερώτηση</string>
+    <string name="Right">Σωστή</string>
+    <string name="ToastMsg1">"Είσαι καλός!!! Η βαθμολογία σου είναι "</string>
+    <string name="ToastMsg2">"Πρέπει να ταξιδεύεις περισσότερο!!! Η βαθμολογία σου είναι "</string>
+    <string name="ToastMsg3">"Προσπάθησε ξανά! Η βαθμολογία σου είναι "</string>
+    <string name="Wrong">Λάθος</string>
+</resources>
