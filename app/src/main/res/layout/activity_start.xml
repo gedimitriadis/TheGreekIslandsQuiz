@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.greekislandsquiz.StartActivity">
 
-
+    <!-- Splash Screen -->
     <TextView
         android:id="@+id/AppLogo"
         style="@style/TextViewLogo"

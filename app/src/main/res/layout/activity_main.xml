@@ -22,7 +22,7 @@
 
             <TextView
                 style="@style/TextViewStyleHeader"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/height40"
                 android:text="@string/app_title" />
 
 
@@ -31,11 +31,9 @@
                 style="@style/EditTextStyle"
                 android:hint="@string/yourName" />
 
-
             <TextView
                 style="@style/IslandTagStyle"
                 android:text="@string/island1" />
-
 
             <ImageView
                 style="@style/ImageViewStyle"
@@ -44,7 +42,6 @@
             <RadioGroup
                 android:id="@+id/Rg1"
                 style="@style/RadioGroupStyle">
-
 
                 <RadioButton
                     android:id="@+id/Rb1"
@@ -55,7 +52,6 @@
                     android:id="@+id/Rb2"
                     style="@style/RadioButtonStyle"
                     android:text="@string/santorini" />
-
 
                 <RadioButton
                     android:id="@+id/Rb3"
@@ -81,9 +77,7 @@
                 android:id="@+id/Rg2"
                 style="@style/RadioGroupStyle">
 
-
                 <RadioButton
-
                     android:id="@+id/Rb5"
                     style="@style/RadioButtonStyle"
                     android:text="@string/zakinthos" />
@@ -92,7 +86,6 @@
                     android:id="@+id/Rb6"
                     style="@style/RadioButtonStyle"
                     android:text="@string/mykonos" />
-
 
                 <RadioButton
                     android:id="@+id/Rb7"
@@ -106,7 +99,6 @@
 
             </RadioGroup>
 
-
             <TextView
                 style="@style/IslandTagStyle"
                 android:text="@string/island3" />
@@ -119,7 +111,6 @@
                 android:id="@+id/Rg3"
                 style="@style/RadioGroupStyle">
 
-
                 <RadioButton
                     android:id="@+id/Rb9"
                     style="@style/RadioButtonStyle"
@@ -129,7 +120,6 @@
                     android:id="@+id/Rb10"
                     style="@style/RadioButtonStyle"
                     android:text="@string/mykonos" />
-
 
                 <RadioButton
                     android:id="@+id/Rb11"
@@ -155,7 +145,6 @@
                 android:id="@+id/Rg4"
                 style="@style/RadioGroupStyle">
 
-
                 <RadioButton
                     android:id="@+id/Rb13"
                     style="@style/RadioButtonStyle"
@@ -165,7 +154,6 @@
                     android:id="@+id/Rb14"
                     style="@style/RadioButtonStyle"
                     android:text="@string/mykonos" />
-
 
                 <RadioButton
                     android:id="@+id/Rb15"
@@ -179,7 +167,6 @@
 
             </RadioGroup>
 
-
             <TextView
                 style="@style/IslandTagStyle"
                 android:text="@string/island5" />
@@ -192,7 +179,6 @@
                 android:id="@+id/Rg5"
                 style="@style/RadioGroupStyle">
 
-
                 <RadioButton
                     android:id="@+id/Rb17"
                     style="@style/RadioButtonStyle"
@@ -202,7 +188,6 @@
                     android:id="@+id/Rb18"
                     style="@style/RadioButtonStyle"
                     android:text="@string/mykonos" />
-
 
                 <RadioButton
                     android:id="@+id/Rb19"
@@ -216,10 +201,9 @@
 
             </RadioGroup>
 
-
             <TextView
                 style="@style/TextViewStyleQuestion"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/height40"
                 android:text="@string/question6" />
 
             <LinearLayout
@@ -269,6 +253,7 @@
                     android:id="@+id/visitSiros"
                     style="@style/CheckBoxStyle"
                     android:text="@string/siros" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -289,7 +274,7 @@
 
             <TextView
                 style="@style/TextViewStyleQuestion"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/height40"
                 android:text="@string/question7" />
 
             <EditText
@@ -297,7 +282,6 @@
                 style="@style/EditTextStyle"
                 android:freezesText="true"
                 android:hint="@string/yourAnswer" />
-
 
             <Button
                 android:id="@+id/submit_button"
@@ -307,9 +291,8 @@
                 android:onClick="submitAnswers"
                 android:text="@string/Submit" />
 
-
         </LinearLayout>
 
-
     </RelativeLayout>
+
 </ScrollView>

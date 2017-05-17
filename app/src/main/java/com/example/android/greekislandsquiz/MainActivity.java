@@ -61,8 +61,6 @@ public class MainActivity extends AppCompatActivity {
         AnswerQuestion6h = (CheckBox) findViewById(R.id.visitSkiathos);
         yourName = (EditText) findViewById(R.id.yourName);
         AnswerQuestion7 = (EditText) findViewById(R.id.yourAnswer);
-
-
     }
 
 
@@ -79,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         boolean Rb9Status = AnswerQuestion3.isChecked();
         boolean Rb14Status = AnswerQuestion4.isChecked();
         boolean Rb20Status = AnswerQuestion5.isChecked();
+
         /* check answer for question 6, only two must be checked */
         boolean visitCorfuStatus = AnswerQuestion6a.isChecked();
         boolean visitZakinthosStatus = AnswerQuestion6b.isChecked();
@@ -88,10 +87,11 @@ public class MainActivity extends AppCompatActivity {
         boolean visitSantoriniStatus = AnswerQuestion6f.isChecked();
         boolean visitSirosStatus = AnswerQuestion6g.isChecked();
         boolean visitSkiathosStatus = AnswerQuestion6h.isChecked();
-         /* gets answer for question 7 */
+
+        /* gets answer for question 7 */
         String Answer7 = AnswerQuestion7.getText().toString();
 
-/*      /*check answers */
+       /*check answers */
         boolean rightAnswer = false;
         if (questionNumber == 1 && Rb2Status) {
             rightAnswer = true;
@@ -123,7 +123,6 @@ public class MainActivity extends AppCompatActivity {
      * @param rightAnswer    true if the answer is right , false if it is wrong
      */
     public int QuestionScore(int questionNumber, boolean rightAnswer) {
-
         int score = 0;
         if (rightAnswer) {
             score = 1;
@@ -135,10 +134,7 @@ public class MainActivity extends AppCompatActivity {
      * This method calculates the final score and and is triggered when submit button is pressed
      */
     public void submitAnswers(View view) {
-
-
         String name = yourName.getText().toString();
-
         int final_score = 0;
         String toPrint = "";
 

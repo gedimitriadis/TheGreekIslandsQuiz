@@ -16,12 +16,11 @@
         android:orientation="vertical">
 
         <RatingBar
-
             android:id="@+id/rating_bar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margin10dp"
             android:numStars="7"
             android:rating="3"
             android:stepSize="1"
@@ -34,7 +33,6 @@
             android:layout_height="wrap_content"
             android:freezesText="true"
             android:gravity="top"
-            android:text=" "
             android:textAlignment="center" />
     </LinearLayout>
 

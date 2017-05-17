@@ -18,7 +18,7 @@ public class ResultsActivity extends AppCompatActivity {
         String message = bundle.getString("result");
         int score = bundle.getInt("f_Score");
 
-    /* create quiz report withh right and wrong answers */
+    /* create quiz report with right and wrong answers */
         TextView SummaryTextView = (TextView) findViewById(R.id.QuizSummary2);
         SummaryTextView.setText(message);
 

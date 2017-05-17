@@ -20,7 +20,7 @@ public class StartActivity extends AppCompatActivity {
 
         // Set a click listener on that View
         StartQuiz.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the colors View is clicked on.
+            // The code in this method will be executed when the start quiz button is clicked on.
             @Override
             public void onClick(View view) {
                 Intent startQuizIntent = new Intent(StartActivity.this, MainActivity.class);
