@@ -28,6 +28,4 @@
     <string name="ToastMsg1"> you are a guru!!! Your score is </string>
     <string name="ToastMsg2"> you need to travel more!!! Your score is </string>
     <string name="ToastMsg3"> please try again! Your score is </string>
-
-
 </resources>

@@ -27,8 +27,19 @@ import static com.example.android.greekislandsquiz.R.id.visitCrete;
 
 public class MainActivity extends AppCompatActivity {
 
-    RadioButton AnswerQuestion1, AnswerQuestion2, AnswerQuestion3, AnswerQuestion4, AnswerQuestion5;
-    CheckBox AnswerQuestion6a, AnswerQuestion6b, AnswerQuestion6c, AnswerQuestion6d, AnswerQuestion6e, AnswerQuestion6f, AnswerQuestion6g, AnswerQuestion6h;
+    RadioButton AnswerQuestion1;
+    RadioButton AnswerQuestion2;
+    RadioButton AnswerQuestion3;
+    RadioButton AnswerQuestion4;
+    RadioButton AnswerQuestion5;
+    CheckBox AnswerQuestion6a;
+    CheckBox AnswerQuestion6b;
+    CheckBox AnswerQuestion6c;
+    CheckBox AnswerQuestion6d;
+    CheckBox AnswerQuestion6e;
+    CheckBox AnswerQuestion6f;
+    CheckBox AnswerQuestion6g;
+    CheckBox AnswerQuestion6h;
     EditText yourName, AnswerQuestion7;
     /**
      * TextView
@@ -63,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
         AnswerQuestion7 = (EditText) findViewById(R.id.yourAnswer);
     }
 
-
     /**
      * This method fetches the right answer for every question returning true for right and false for wrong .
      *
@@ -71,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public boolean getRightAnswer(int questionNumber) {
 
-    /* check if right radiobutton is checked for questions 1-5 */
+        /* check if right radiobutton is checked for questions 1-5 */
         boolean Rb2Status = AnswerQuestion1.isChecked();
         boolean Rb7Status = AnswerQuestion2.isChecked();
         boolean Rb9Status = AnswerQuestion3.isChecked();
@@ -160,8 +170,6 @@ public class MainActivity extends AppCompatActivity {
         buttonIntent.putExtra("result", toPrint);
         buttonIntent.putExtra("f_Score", final_score);
         startActivity(buttonIntent);
-
-
     }
 
 

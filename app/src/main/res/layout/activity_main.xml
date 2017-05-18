@@ -10,7 +10,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
 
         android:padding="0dp"
         tools:context="com.example.android.greekislandsquiz.MainActivity">
@@ -24,7 +24,6 @@
                 style="@style/TextViewStyleHeader"
                 android:layout_height="@dimen/height40"
                 android:text="@string/app_title" />
-
 
             <EditText
                 android:id="@+id/yourName"

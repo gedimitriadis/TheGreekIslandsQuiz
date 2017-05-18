@@ -16,10 +16,10 @@
         style="@style/TextViewLogo"
         android:text="@string/AppLogo" />
 
-
     <Button
         android:id="@+id/startButton"
         style="@style/StartButtonStyle"
         android:layout_alignBottom="@+id/AppLogo"
         android:text="@string/StartQuiz" />
+
 </RelativeLayout>

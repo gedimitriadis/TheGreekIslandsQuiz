@@ -15,7 +15,6 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-
         Button StartQuiz = (Button) findViewById(R.id.startButton);
 
         // Set a click listener on that View
@@ -27,7 +26,6 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(startQuizIntent);
             }
         });
-
 
     }
 }
