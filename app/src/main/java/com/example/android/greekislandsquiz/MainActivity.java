@@ -41,13 +41,6 @@ public class MainActivity extends AppCompatActivity {
     CheckBox AnswerQuestion6g;
     CheckBox AnswerQuestion6h;
     EditText yourName, AnswerQuestion7;
-    /**
-     * TextView
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
